@@ -1,0 +1,26 @@
+#
+# cgit config
+# see cgitrc(5) for details
+
+root-title=Git Repositories
+root-desc=Das sind unsere Sourcecode Repositories.
+css=/cgit-web/cgit.css
+logo=/cgit-web/cgit.png
+scan-path=/home/frappe/frappe-bench/apps
+virtual-root=/cgit
+about-filter=/usr/lib/cgit/filters/about-formatting.sh
+readme=:README.md
+
+section=Abschnitt
+
+repo.url=frappe
+repo.path=/home/frappe/frappe-bench/apps/frappe
+repo.desc=Frappe Repository
+repo.owner=kkappel@jugendhilfe-wuemmetal.de
+repo.readme=:README.md
+
+repo.url=ERPNext
+repo.path=/home/frappe/frappe-bench/apps/erpnext
+repo.desc=ERPNext Repository
+repo.owner=kkappel@jugendhilfe-wuemmetal.de
+repo.readme=:README.md
